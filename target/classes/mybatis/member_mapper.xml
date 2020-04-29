@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace속성:매퍼파일의 완전한경로 .xml는 생략 -->
+<!-- ※ibatis와는 다르게 id값에 .(dot)를 사용 못한다. -->
+<mapper namespace="mybatis.member_mapper">
+	<!--resultMap사용시 column속성 필수:ibatis와 다른점  -->
+	<!--  
+	<resultMap type="replyBBSDto" id="ReplyBBSResult">		
+		<result property="no" column="no"/>
+		<result property="title" column="title"/>
+		<result property="content" column="content"/>
+		<result property="postDate" column="postDate"/>
+		<result property="refer" column="refer"/>
+		<result property="step" column="step"/>
+		<result property="depth" column="depth"/>
+		<result property="name" column="name"/>
+	</resultMap>
+	-->
+</mapper>
